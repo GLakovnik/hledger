@@ -10,6 +10,14 @@ packages:
 
 extra-deps:
 - safe-0.3.21
+
+- base-compat-0.14.0
+# needed for the above:
+- base-compat-batteries-0.14.0
+- OneTuple-0.4.2
+- foldable1-classes-compat-0.1
+- hashable-1.4.7.0
+
 # for hledger-lib:
 - doctest-0.20.0
 - ansi-terminal-0.11.4
